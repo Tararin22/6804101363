@@ -26,8 +26,8 @@
       />
 
       <div>
-        <q-btn label="SUBMIT" type="submit" color="primary" />
-        <q-btn label="RESET" type="reset" color="primary" flat class="q-ml-sm" />
+        <q-btn label="SUBMIT (提出する)" type="submit" color="primary" />
+        <q-btn label="RESET (リセット)" type="reset" color="primary" flat class="q-ml-sm" />
       </div>
     </q-form>
   </q-page>
