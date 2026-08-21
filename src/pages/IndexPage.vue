@@ -6,18 +6,17 @@
       class="q-gutter-md"
       style="max-width: 600px"
     >
-      <q-input
-        filled
-        v-model="name"
-        label="Your name *"
-        hint="Name and surname"
+      <q-input 
+      filled 
+      v-model="name" 
+      label="Your name (ชื่อ-สกุล) *" 
+      hint="Name and surname" 
       />
 
-      <q-input
-        filled
-        type="number"
-        v-model="age"
-        label="Your age *"
+      <q-input 
+      filled type="number" 
+      v-model="age" 
+      label="Your age (อายุ) *" 
       />
 
       <q-toggle
